@@ -1,0 +1,1 @@
+const e={title:"🪄 Ukoreh 🪄",description:"Drop any Flutter project link and see the magic happen!",deploy:"Deploy",workflowDividerLabel:"Workflow Status",startingWorkflow:"Starting deploy workflow...",feelingLucky:"I'm feeling lucky 🤞"};export{e as default};

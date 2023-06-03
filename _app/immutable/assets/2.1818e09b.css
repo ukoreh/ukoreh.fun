@@ -1,0 +1,1 @@
+.point-animation-right{animation:point-right 2s cubic-bezier(.4,0,.6,1) infinite}.point-animation-down{animation:point-down 2s cubic-bezier(.4,0,.6,1) infinite}@keyframes point-right{50%{transform:translate(10px)}}@keyframes point-down{50%{transform:translateY(10px)}}

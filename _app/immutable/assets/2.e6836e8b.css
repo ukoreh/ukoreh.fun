@@ -1,1 +1,0 @@
-.point-animation{animation:point 2s cubic-bezier(.4,0,.6,1) infinite}@keyframes point{50%{transform:translate(10px)}}

@@ -1695,6 +1695,9 @@ html {
 .link-primary:focus-visible {
   outline-color: rgb(var(--primary));
 }
+.isolate {
+  isolation: isolate;
+}
 .flex {
   display: flex;
 }
@@ -1704,6 +1707,9 @@ html {
 .hidden {
   display: none;
 }
+.h-4 {
+  height: 1rem;
+}
 .h-6 {
   height: 1.5rem;
 }
@@ -1712,6 +1718,9 @@ html {
 }
 .h-screen {
   height: 100vh;
+}
+.w-32 {
+  width: 8rem;
 }
 .w-4 {
   width: 1rem;
@@ -1755,8 +1764,14 @@ html {
 .fill-error {
   fill: rgb(var(--error));
 }
+.fill-primary {
+  fill: rgb(var(--primary));
+}
 .fill-success {
   fill: rgb(var(--success));
+}
+.fill-white {
+  fill: #fff;
 }
 .stroke-content3 {
   stroke: rgb(var(--content3));
@@ -1764,9 +1779,17 @@ html {
 .stroke-error {
   stroke: rgb(var(--error));
 }
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pt-2 {
   padding-top: 0.5rem;
@@ -1915,11 +1938,4 @@ html {
 	.screen-resolver {
 		--type: '2xl';
 	}
-}
-
-@media (min-width: 640px) {
-
-  .sm\:justify-end {
-    justify-content: flex-end;
-  }
 }
